@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+.logo{
+   /* border-style: solid;*/
+    
+}
+.name{
+/*border-style: solid;*/
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+    background-image: url("back.jpg") ;
+    color:#FF3399 ;
+}
+.menu{
+    border-style: solid;
+    color:white;
+    text-align: center;
+     padding-top: 5px;
+     background-color:purple;
+}
+
+.menu a {
+         text-decoration: none;
+         color:whitesmoke;
+         display:block
+}
+
+.banner{
+    color:white;
+    height:200px;
+    border-style:solid;
+    text-align:center;
+    padding-top: 70px;
+    font-size:35px;
+    background-image:url("logobackground.jpg");
+    background-color: antiquewhite;
+}
+.about_project{
+    text-align: justify;
+
+}
+.service{text-align: justify;}
+
+.footer{
+    height:100px;
+ margin-top: 20px;
+ text-align:left;
+background-color:white;
+text-decoration:none;
+color:blue;
+
+
+}
+
+ .button {
+    background-color:rgb(255, 71, 172);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+ 
+  
+.gallery {
+  margin: 10px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 180px;
+  
+}
+​
+.gallery:hover {
+  border: 2px solid #777;
+}
+
+​.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
